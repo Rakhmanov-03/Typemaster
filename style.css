@@ -1,0 +1,209 @@
+/* barlow-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 500;
+  src: url("./fonts/barlow-v12-latin-500.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* barlow-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 700;
+  src: url("./fonts/barlow-v12-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* barlow-900 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 900;
+  src: url("./fonts/barlow-v12-latin-900.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  font-family: "Barlow", sans-serif;
+  background: #fff;
+  position: relative;
+}
+body button {
+  width: 175px;
+  height: 58px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+  text-transform: uppercase;
+  border: 0;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.TM {
+  display: flex;
+  flex-direction: row;
+  gap: 895px;
+  margin-top: 55px;
+}
+.TM img {
+  width: 40px;
+  height: 40px;
+}
+.TM button {
+  background: #e8eff2;
+  color: #162542;
+}
+.content__group {
+  display: flex;
+  flex-direction: row;
+  margin-top: 83px;
+}
+.typemaster {
+  display: flex;
+  flex-direction: column;
+  margin-top: 60px;
+  width: 445px;
+}
+.typemaster h1 {
+  color: #162542;
+  font-size: 56px;
+  font-weight: 900;
+  line-height: 56px;
+  text-transform: uppercase;
+}
+.typemaster p {
+  color: #7b8bad;
+  margin-top: 24px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+}
+.button {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  margin-top: 40px;
+  align-items: center;
+}
+.button button {
+  background: #f16718;
+  color: #fff;
+}
+.button h4 {
+  color: #7b8bad;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+  text-transform: uppercase;
+}
+.content__group img {
+  width: 600px;
+  height: 480px;
+  border-radius: 20px;
+  margin-left: 125px;
+}
+.position {
+  position: absolute;
+  right: 0;
+  top: 196px;
+  width: 127.5px;
+  height: 240px;
+}
+.content__keyboard {
+  display: flex;
+  flex-direction: row;
+}
+.keyboard__image {
+  display: flex;
+  flex-direction: row;
+  gap: 30.5px;
+  margin-top: 30px;
+}
+.keyboard__image img:nth-child(1) {
+  width: 255px;
+  height: 480px;
+}
+.keyboard__image img:nth-child(2) {
+  width: 445px;
+  height: 480px;
+}
+.mechanical {
+  display: flex;
+  flex-direction: column;
+  gap: 27px;
+  width: 255px;
+  margin-top: 142px;
+  margin-left: 125px;
+}
+.mechanical h3 {
+  color: #162542;
+  font-size: 32px;
+  font-weight: 900;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+.mechanical p {
+  color: #7b8bad;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+}
+.position2 {
+  position: absolute;
+  top: 950px;
+  left: 0;
+}
+.content__class {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  margin-top: 168px;
+}
+.content__class img {
+  width: 65px;
+  height: 65px;
+}
+.content__class h4 {
+  color: #162542;
+  margin-top: 48px;
+  width: 200px;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+.content__class p {
+  color: #7b8bad;
+  margin-top: 24px;
+  width: 255px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+}
+.footer__typemaster h5 {
+  margin-top: 128px;
+  color: #7b8bad;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px;
+  margin-bottom: 39px;
+}
+.footer__typemaster span {
+  color: #7b8bad;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+}
